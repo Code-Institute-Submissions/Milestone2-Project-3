@@ -2,6 +2,7 @@
 
 body{
     font-family: anton;
+    color: maroon
 }
 
 /* Hero Section */
@@ -20,4 +21,9 @@ body{
 #hero-outer p{
     color:maroon;
     padding-top: 50px;
+}
+
+.d-flex img{
+    width: 60%;
+    height: auto;
 }

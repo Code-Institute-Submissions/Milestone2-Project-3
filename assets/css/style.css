@@ -1,3 +1,23 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Rose:wght@700&display=swap');
+
+body{
+    font-family: anton;
+}
+
+/* Hero Section */
+
+#hero-image{
+  height: 600px;
+  width: 100%;
+  background-image: url("../images/sixfields.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#hero-outer p{
+    color:maroon;
+    padding-top: 50px;
 }

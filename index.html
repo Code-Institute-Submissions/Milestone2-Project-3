@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milestone Project 2</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <!-- Navbar using a Bootstrap 4 template -->
-      <nav class="navbar navbar-light bg-light navbar-expand-sm mt-3">
-        <a class="navbar-brand" href="#">
-          <img
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Milestone Project 2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+	<header>
+		<!-- Navbar using a Bootstrap 4 template -->
+		<nav class="navbar navbar-light bg-light navbar-expand-sm mt-3">
+			<a class="navbar-brand" href="#hero">
+				<img
             src="assets/images/badges/Northampton.jpg"
             width="40"
             height="40"
@@ -35,7 +28,7 @@
           />
           NTFC on the Road
         </a>
-        <button
+				<button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -46,269 +39,256 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbar-list">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Maps</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Fixtures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Quiz</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section id="hero-outer">
-        <div class="container-fluid display-2 text-center" id="hero-image">
-          <p class="text-capitalize">
-            On the road with the
-            <strong class="text-uppercase"> <br />cobblers</strong>
-          </p>
-          <div>
-            <h4>The Away Fans Guide to Watching The Cobblers In League 1</h4>
-          </div>
-        </div>
-      </section>
-      <section id="opponents">
-        <div class="container opponentsbadges">
-          <div class="row">
-            <div class="col-4 col-lg-2">
-              <img
+				<div class="collapse navbar-collapse" id="navbar-list">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#hero">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Maps</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Fixtures</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Quiz</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+	</header>
+	<main>
+		<section id="hero">
+			<div class="container-fluid display-2 text-center" id="hero-image">
+				<p class="text-capitalize">
+					On the road with the
+					<strong class="text-uppercase"> <br />cobblers</strong>
+				</p>
+				<div>
+					<h4>The Away Fans Guide to Watching The Cobblers In League 1</h4>
+				</div>
+			</div>
+		</section>
+		<section id="opponents">
+			<div class="container opponentsbadges">
+				<div class="row">
+					<div class="col-4 col-lg-2">
+						<img
                 src="assets/images/badges/Accrington.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+						<div class="col-4 col-lg-2">
+							<img
                 src="assets/images/badges/AFC Wimbledon.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+							<div class="col-4 col-lg-2">
+								<img
                 src="assets/images/badges/Blackpool.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+								<div class="col-4 col-lg-2">
+									<img
                 src="assets/images/badges/Bristol Rovers.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+									<div class="col-4 col-lg-2">
+										<img
                 src="assets/images/badges/Burton.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+										<div class="col-4 col-lg-2">
+											<img
                 src="assets/images/badges/Charlton.jpg"
                 class="image-fluid"
                 alt=""
               />
             </div>
-          </div>
-        </div>
-        <div class="container opponentsbadges">
-          <div class="row">
-            <div class="col-4 col-lg-2">
-              <img
+										</div>
+									</div>
+									<div class="container opponentsbadges">
+										<div class="row">
+											<div class="col-4 col-lg-2">
+												<img
                 src="assets/images/badges/Crewe.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+												<div class="col-4 col-lg-2">
+													<img
                 src="assets/images/badges/Doncaster.jpg"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+													<div class="col-4 col-lg-2">
+														<img
                 src="assets/images/badges/Fleetwood.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+														<div class="col-4 col-lg-2">
+															<img
                 src="assets/images/badges/Gillingham.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+															<div class="col-4 col-lg-2">
+																<img
                 src="assets/images/badges/Hull.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																<div class="col-4 col-lg-2">
+																	<img
                 src="assets/images/badges/Ipswich.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-          </div>
-        </div>
-        <div class="container opponentsbadges">
-          <div class="row">
-            <div class="col-4 col-lg-2">
-              <img
+																</div>
+															</div>
+															<div class="container opponentsbadges">
+																<div class="row">
+																	<div class="col-4 col-lg-2">
+																		<img
                 src="assets/images/badges/Lincoln.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																		<div class="col-4 col-lg-2">
+																			<img
                 src="assets/images/badges/MK Dons.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																			<div class="col-4 col-lg-2">
+																				<img
                 src="assets/images/badges/Northampton.jpg"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																				<div class="col-4 col-lg-2">
+																					<img
                 src="assets/images/badges/Oxford.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																					<div class="col-4 col-lg-2">
+																						<img
                 src="assets/images/badges/Peterborough.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																						<div class="col-4 col-lg-2">
+																							<img
                 src="assets/images/badges/Plymouth.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-          </div>
-        </div>
-        <div class="container opponentsbadges">
-          <div class="row">
-            <div class="col-4 col-lg-2">
-              <img
+																						</div>
+																					</div>
+																					<div
+																						class="container opponentsbadges">
+																						<div class="row">
+																							<div class="col-4 col-lg-2">
+																								<img
                 src="assets/images/badges/Portsmouth.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																								<div
+																									class="col-4 col-lg-2">
+																									<img
                 src="assets/images/badges/Rochdale.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																									<div
+																										class="col-4 col-lg-2">
+																										<img
                 src="assets/images/badges/Shrewsbury.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																										<div
+																											class="col-4 col-lg-2">
+																											<img
                 src="assets/images/badges/Sunderland.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																											<div
+																												class="col-4 col-lg-2">
+																												<img
                 src="assets/images/badges/Swindon.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-            <div class="col-4 col-lg-2">
-              <img
+																												<div
+																													class="col-4 col-lg-2">
+																													<img
                 src="assets/images/badges/Wigan.png"
                 class="image-fluid"
                 alt=""
               />
             </div>
-          </div>
-        </div>
-      </section>
-      <section>
-          <div id="map"></div>
-      </section>
-      <div>
-        travel section
-      </div>
-      <div>
-        fans mini quiz
-      </div>
-      <div>
-        contact form
-      </div>
-    </main>
-    <footer>
-      <div>
-        social media
-      </div>
-    </footer>
+																												</div>
+																											</div>
+		</section>
+		<section>
+			<div id="map"></div>
+		</section>
+		<div>
+			travel section
+		</div>
+		<div>
+			fans mini quiz
+		</div>
+		<div>
+			contact form
+		</div>
+	</main>
+	<footer>
+		<div>
+			social media
+		</div>
+	</footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"></script>
+	<script src="assets/js/maps.js" ></script>
+</body>
 
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 3, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"
-    ></script>
-  </body>
 </html>

@@ -51,3 +51,11 @@ function initMap() {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
+
+        $(".test").click(function(){
+            $("#hide").hide
+        })
+
+         $("#accy_badge").click(function(){
+            $("#accy_badge").hide
+        })

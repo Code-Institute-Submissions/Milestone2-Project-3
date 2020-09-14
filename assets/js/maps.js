@@ -12,7 +12,7 @@ function initMap() {
             var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
             var locations = [
-                {lat:53.765071,lng:-2.371204},   //Accrington
+                {locId: 'A' ,lat:53.765071,lng:-2.371204, Team: "Accy"},   //Accrington
                 {lat:51.405568,lng:-0.282414},   //AFC Wimbledon
                 {lat:53.805049,lng:-3.049142},   //Blackpool
                 {lat:51.486727,lng:-2.582715},   //Bristol rovers
@@ -52,10 +52,4 @@ function initMap() {
             });
         }
 
-        $(".test").click(function(){
-            $("#hide").hide
-        })
-
-         $("#accy_badge").click(function(){
-            $("#accy_badge").hide
-        })
+ 

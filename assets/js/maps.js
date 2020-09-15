@@ -25,7 +25,7 @@ function initMap() {
                 {lat:53.745916,lng:-0.368016},   //Hull
                 {lat:52.055102,lng:1.145308},    //Ipswich
                 {lat:53.21855,lng:-0.540772},    //Lincoln
-                {lat:52.009853,lng:-0.733461},   //mk dons
+                {lat:52.009853,lng:-0.733461},   //MK dons
                 {lat:52.235431,lng:-0.934538},   //Northampton
                 {lat:51.716099,lng:-1.207979},   //Oxford
                 {lat:52.56493,lng:-0.241323},    //Peterborough

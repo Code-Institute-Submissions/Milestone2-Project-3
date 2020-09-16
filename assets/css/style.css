@@ -5,6 +5,25 @@ body{
     font-size: 16px;
     color: maroon
 }
+/* NavBar */
+
+.navbar navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #343a40;
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
 
 /* Hero Section */
 

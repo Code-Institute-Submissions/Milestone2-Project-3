@@ -63,7 +63,7 @@ function initMap() {
     }
     var map = new google.maps.Map(document.getElementById("map"),options);
 
-  /*  var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
         position:  {lat:52.2350,lng:-0.9337},
         map:map,
             });
@@ -75,12 +75,12 @@ function initMap() {
     marker.addListener('click',function(){
         infoWindow.open(map,marker);
     })
-*/  
+ 
 
 // Array for Markers
 
-    var markers =[
-        {coords:{ lat:53.7654,lng:-2.37106},
+/   var markers =[
+{coords:{ lat:53.7654,lng:-2.37106},
 content:'<h6>Accrington Stanley</h6>'},
 {coords:{lat:51.4051,lng:-0.281984},
 content:'<h6>AFC Wimbledon</h6>'},

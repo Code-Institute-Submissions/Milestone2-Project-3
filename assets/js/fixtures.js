@@ -3,5 +3,5 @@ $(document).ready(function () {
 });
 
 $(".fixtures-btn").click(function(){
-    $(this).children('p').removeClass('invisible').toggle("fast");
+    $(this).siblings('p').removeClass('invisible').toggle("fast");
 });

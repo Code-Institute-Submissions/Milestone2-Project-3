@@ -375,7 +375,7 @@
 		<section id="travel-section">
             
         </section>
-        <section id="opponentsxxxxxxx">
+        <section id="direction-section">
 			<div class="container opponentsbadges">
 				<div class="row">
 					<div class="col-4 col-lg-2" >
@@ -489,11 +489,47 @@
 				</div>
 			</div>
 		</section>
-		
+		<section id="contact-section"> 
+        <h3 class="text-center">Contact Us</h3>
+        <div class="container form-container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <form onsubmit="return sendMail(this);">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Please Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="emailaddress"
+                class="form-control"
+                id="email"
+                placeholder="Please Enter Your Email Address"
+                required
+              />
+              <textarea
+                name="message"
+                class="form-control"
+                id="message"
+                placeholder="Please Enter Your Message or Question"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+        
+        </section>
                 
-		<div>
-			contact form
-		</div>
+		
         
 	</main>
 	<footer>

@@ -55,6 +55,8 @@ body{
         height: 600px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
        }
+
+/* Fixtues Section */
 .testbackground{
    background:  repeating-linear-gradient(
   to right,
@@ -64,6 +66,64 @@ body{
   #ffd180 30px
 );
 }
-.card-highlight{
-	background-color: rgb(235, 82, 85);
+.testbox{
+    height: 200px;
+    width: 200px;
+    background:  repeating-linear-gradient(
+  to right,
+  #0000ff,
+  #0000ff 15px,
+  #ffff1a 15px,
+  #ffff1a 30px,
+  );
+}
+
+.red{
+    background-color: red
+}
+.blue{
+    background-color:blue
+}
+.orange{
+    background-color: orangered
+}
+.yellow{
+    background-color: yellow
+}
+.white{
+    background-color: white
+}
+.claret{
+    background-color: maroon
+}
+.green{
+    background-color: green
+}
+.blueyellow{
+     background:  repeating-linear-gradient(90deg, 
+     #1131eb ,
+     #1131eb 15px,
+     #f5da0a 15px,
+     #f5da0a 30px);
+}
+.bluewhite{
+     background:  repeating-linear-gradient(90deg, 
+     #1131eb ,
+     #1131eb 15px,
+     #ffffff 15px,
+     #ffffff 30px);
+}
+.redwhite{
+     background:  repeating-linear-gradient(90deg, 
+     #ff0000 ,
+     #ff0000 15px,
+     #ffffff 15px,
+     #ffffff 30px);
+}
+.redwhitethin{
+     background:  repeating-linear-gradient(90deg, 
+     #ff0000 ,
+     #ff0000 25px,
+     #ffffff 5px,
+     #ffffff 30px);
 }

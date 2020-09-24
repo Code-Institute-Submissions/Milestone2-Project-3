@@ -55,3 +55,15 @@ body{
         height: 600px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
        }
+.testbackground{
+   background:  repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 15px,
+  #ffd180 15px,
+  #ffd180 30px
+);
+}
+.card-highlight{
+	background-color: rgb(235, 82, 85);
+}

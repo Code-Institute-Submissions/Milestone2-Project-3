@@ -43,6 +43,12 @@ body{
     padding-top: 50px;
 }
 
+@media screen and (max-width:1393px){
+    #hero-image{
+        background-attachment: scroll;
+    }
+}
+
 /* Opponents Section */
 
 .opponentsbadges img{

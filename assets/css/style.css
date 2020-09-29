@@ -37,6 +37,18 @@ body{
   background-attachment: fixed;
   overflow: hidden;
 }
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #343a407d;
+ }
 
 #hero-outer p{
     color:maroon;

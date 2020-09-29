@@ -3,7 +3,9 @@
 body{
     font-family: anton;
     font-size: 16px;
-    color: maroon
+    color: maroon;
+    background-color: #ffffcc;
+    
 }
 /* NavBar */
 
@@ -53,12 +55,16 @@ body{
 #hero-outer p{
     color:maroon;
     padding-top: 50px;
+    
 }
 
 @media screen and (max-width:1393px){
     #hero-image{
         background-attachment: scroll;
     }
+}
+#hero p{
+    padding: 100px;
 }
 
 /* Opponents Section */
@@ -97,25 +103,32 @@ body{
 }
 
 .red{
-    background-color: red
+    background-color: red;
+    color: white;    
 }
 .blue{
-    background-color:blue
+    background-color:blue;
+    color: white;
 }
 .orange{
-    background-color: orangered
+    background-color: orangered;
+    color: white;
 }
 .yellow{
-    background-color: yellow
-}
+    background-color: yellow;
+    color: black;
+    }
 .white{
-    background-color: white
+    background-color: white;
+    color: black;
 }
 .claret{
-    background-color: maroon
+    background-color: maroon;
+    color: white;
 }
 .green{
-    background-color: green
+    background-color: green;
+    color: white;
 }
 .blueyellow{
      background:  repeating-linear-gradient(90deg, 
@@ -123,6 +136,7 @@ body{
      #1131eb 15px,
      #f5da0a 15px,
      #f5da0a 30px);
+     color: black;
 }
 .bluewhite{
      background:  repeating-linear-gradient(90deg, 
@@ -130,6 +144,7 @@ body{
      #1131eb 15px,
      #ffffff 15px,
      #ffffff 30px);
+     color: black;
 }
 .redwhite{
      background:  repeating-linear-gradient(90deg, 
@@ -137,6 +152,7 @@ body{
      #ff0000 15px,
      #ffffff 15px,
      #ffffff 30px);
+      color: black;
 }
 .redwhitethin{
      background:  repeating-linear-gradient(90deg, 
@@ -144,6 +160,7 @@ body{
      #ff0000 25px,
      #ffffff 5px,
      #ffffff 30px);
+      color: black;
 }
 .goldblack{
      background:  repeating-linear-gradient(90deg, 
@@ -151,6 +168,7 @@ body{
      #e9c62e 15px,
      #000111 15px,
      #000111 30px);
+      color: white;
 }
 .redwhitehoop{
      background:  repeating-linear-gradient(180deg, 
@@ -158,4 +176,5 @@ body{
      #ff0000 15px,
      #ffffff 15px,
      #ffffff 30px);
+      color: black;
 }

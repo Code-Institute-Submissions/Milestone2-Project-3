@@ -127,3 +127,17 @@ body{
      #ffffff 5px,
      #ffffff 30px);
 }
+.goldblack{
+     background:  repeating-linear-gradient(90deg, 
+     #e9c62e ,
+     #e9c62e 15px,
+     #000111 15px,
+     #000111 30px);
+}
+.redwhitehoop{
+     background:  repeating-linear-gradient(180deg, 
+     #ff0000 ,
+     #ff0000 15px,
+     #ffffff 15px,
+     #ffffff 30px);
+}

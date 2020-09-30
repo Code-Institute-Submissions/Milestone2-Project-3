@@ -1,17 +1,19 @@
-// Template for maps from Interactive Frontend Development Module 
+// Template for maps from YOU TUBE Add CORRECT NAME HERE AND REFERENCE IN READ ME
 
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 6,
+
+//map options
+    function initMap(){
+        let options ={
+             zoom: 6,
 		center: {
 			lat: 52.2350,
-			lng: -0.9337
-		}
-    });
+			lng: -0.9337}
+        }
+// new map
+        let map = new google.maps.Map(document.getElementById("map"),options);
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    var locations = [{
+// add marker
+        var markers =[{
 		coords: {
 			lat: 53.7654,
 			lng: -2.37106
@@ -155,30 +157,33 @@ function initMap() {
 			lng: -2.65415
 		},
 		content: '<h6>Wigan Athletic</h6>'
-	}];
-
+    }];
     
+        for(var i =0 ;i<markers.length;i++){
+            addMarker(markers[i]);
 
-     var markers = locations.map(function(props, i) {
-        return new google.maps.Marker({
-            position: props.coords,
-			map: map,
-            label: labels[i % labels.length]
+        }
+
+       s
+
+//  add marker function
+        function addMarker(props){
+            let marker = new google.maps.Marker({
+            position:props.coords,
+            map:map           
         });
-        
-    });
 
-    
+        if(props.content){
+          let InfoWindow = new google.maps.InfoWindow({
+            content:props.content
+        });
 
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+         marker.addListener('click',function(){
+            InfoWindow.open(map, marker);
+        });  
+        }
+        }
+
+
+        var markerCluster = new MarkerClusterer(map, marker, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
-// check content    
-		if (props.content) {
-			var infoWindow = new google.maps.InfoWindow({
-				content: props.content
-			});
-
-			marker.addListener('click', function() {
-				infoWindow.open(map, marker);
-			});
-		}

@@ -2,12 +2,12 @@ $(document).ready(function () {
   $(".invisible").hide();
 });
 
-$(".fixtures-btn").click(function(){
+/*$(".fixtures-btn").click(function(){
     $(this).siblings('p').removeClass('invisible').toggle("fast");
-    let cardColour = $(this).attr('data-colour') ;
-    /*$(this).addClass(cardColour)*/
-    $(this).parents(".card").addClass(cardColour)
-});
+    let cardColour = $(this).attr('data-colour') ;*/
+   /* $(this).addClass(cardColour)*/
+    /*$(this).parents(".card").addClass(cardColour)
+});*/
     
 
 $(".card").mouseenter(function(){
@@ -22,3 +22,4 @@ $(".card").mouseleave(function(){
     let cardColour = $(this).find('a').attr('data-colour') ;
     $(this).removeClass(cardColour)
 }); 
+

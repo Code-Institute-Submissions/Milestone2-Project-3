@@ -1,19 +1,17 @@
 // Template for maps from Interactive Frontend Development Module 
 
 function initMap() {
-	var options = {
-		zoom: 7,
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 6,
 		center: {
 			lat: 52.2350,
 			lng: -0.9337
 		}
-	};
-	var map = new google.maps.Map(document.getElementById("map"), options);
-	// Array for Markers
+    });
 
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-
-	var markers = [{
+    var locations = [{
 		coords: {
 			lat: 53.7654,
 			lng: -2.37106
@@ -87,7 +85,7 @@ function initMap() {
 		content: '<h6>Ipswich Town</h6>'
 	}, {
 		coords: {
-			lat: 53.2184,
+			lat: 53.2185,
 			lng: 0.5407
 		},
 		content: '<h6>Lincoln City</h6>'
@@ -159,31 +157,22 @@ function initMap() {
 		content: '<h6>Wigan Athletic</h6>'
 	}];
 
-	var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+    
 
-	// loop through markers
-
-	for (var i = 0; i < markers.length; i++) {
-		addMarker(markers[i]);
-	}
-
-	//add marker function
-	function addMarker(props) {
-		var marker = new google.maps.Marker({
-			position: props.coords,
+     var markers = locations.map(function(props, i) {
+        return new google.maps.Marker({
+            position: props.coords,
 			map: map,
-			label: labels[i % labels.length]
-				
+            label: labels[i % labels.length]
         });
         
-        
-		//  check for custom icon
-		if (props.iconImage) {
-			// Set icon image
-			marker.setIcon(props.iconImage);
-		}
+    });
 
-		// check content    
+    
+
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+}
+// check content    
 		if (props.content) {
 			var infoWindow = new google.maps.InfoWindow({
 				content: props.content
@@ -193,5 +182,3 @@ function initMap() {
 				infoWindow.open(map, marker);
 			});
 		}
-    }
-}

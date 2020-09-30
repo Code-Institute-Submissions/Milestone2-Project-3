@@ -47,9 +47,8 @@ body{
     right: 0;
     height: 600px;
     width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: #343a407d;
+    
+    
  }
 
 #hero-outer p{
@@ -178,3 +177,5 @@ body{
      #ffffff 30px);
       color: black;
 }
+
+

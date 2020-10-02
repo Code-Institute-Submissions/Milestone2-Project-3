@@ -71,26 +71,7 @@ body{
        }
 
 /* Fixtues Section */
-.testbackground{
-   background:  repeating-linear-gradient(
-  to right,
-  #f6ba52,
-  #f6ba52 15px,
-  #ffd180 15px,
-  #ffd180 30px
-);
-}
-.testbox{
-    height: 200px;
-    width: 200px;
-    background:  repeating-linear-gradient(
-  to right,
-  #0000ff,
-  #0000ff 15px,
-  #ffff1a 15px,
-  #ffff1a 30px,
-  );
-}
+
 
 .red{
     background-color: red;

@@ -2,24 +2,20 @@ $(document).ready(function () {
   $(".invisible").hide();
 });
 
-/*$(".fixtures-btn").click(function(){
-    $(this).siblings('p').removeClass('invisible').toggle("fast");
-    let cardColour = $(this).attr('data-colour') ;*/
-   /* $(this).addClass(cardColour)*/
-    /*$(this).parents(".card").addClass(cardColour)
-});*/
-    
+$(function(){
+   $(".fixtures-btn").click(function () {
 
-$(".card").mouseenter(function(){
-    $(this).find('p').removeClass('invisible').toggle("fast");
-    let cardColour = $(this).find('a').attr('data-colour') ;
-   $(this).addClass(cardColour)
+        if ($(this).text() === 'Show Fixtures') {
+            $(this).text('Hide Fixtures');
+             $(this).siblings('p').removeClass('invisible').toggle("fast");
+            let cardColour = $(this).attr('data-colour');
+            $(this).parents(".card").addClass(cardColour);
     
+        } else {
+            $(this).text('Show Fixtures');
+             $(this).siblings('p').addClass('invisible').toggle("fast");
+             let cardColour = $(this).attr('data-colour');
+             $(this).parents(".card").removeClass(cardColour);
+        }
+    });
 });
-
-$(".card").mouseleave(function(){
-    $(this).find('p').addClass('invisible').toggle("fast");
-    let cardColour = $(this).find('a').attr('data-colour') ;
-    $(this).removeClass(cardColour)
-}); 
-

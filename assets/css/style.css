@@ -49,13 +49,20 @@ body{
 
 
 
-/* Opponents Section */
+/* Directions Section */
 
 .opponentsbadges img{
    width:75px;
    height:75px;
    object-fit:scale-down;
 }
+
+.opponentsbadges img:hover{
+     width:100px;
+   height:100px;
+}
+
+/* Map Section */
 
 #map {
         height: 600px;  
@@ -149,4 +156,39 @@ body{
       color: black;
 }
 
+/*-------------contact section-----------------------------------------*/
 
+.btn-contact{
+    color: #ffffff;
+    background-color:  #b42424;
+}
+
+/*-------------social media section-----------------------------------------*/
+
+.social-media {
+  background-color:  #b42424;
+  color: whitesmoke;
+}
+
+.media-links i {
+  padding: 5%;
+  color: whitesmoke;
+  font-size: 150%;
+  margin-right: 80px;
+  margin-left: 80px;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.media-links i:hover {
+  background: red;
+  font-size: 200%;
+}
+
+
+
+
+.media-links{
+    text-align: center;
+}

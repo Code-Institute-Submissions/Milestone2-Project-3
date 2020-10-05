@@ -12,7 +12,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 	</script>
-    
+    <link
+      rel="stylesheet"
+      href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     
 
 	<link rel="stylesheet" href="assets/css/style.css" />
@@ -59,10 +62,11 @@
 		<section id="hero">
         <div class="jumbotron jumbotron-fluid jumbotron-section">
         <div class="container jumbotron-container">
-        <h1 class="display-4 text-white">
+        <h1 class="display-4 text-white pb-4">
           On The Road With The <strong>COBBLERS</strong>
         </h1>
-        <p class="lead text-white">The away fans guide to watching the cobblers in League 1</p>
+        <br>
+        <h3 class="lead text-white ">The away fans guide to watching the cobblers in League 1</h3>
       </div>
     </div>
 		</section> 
@@ -497,8 +501,9 @@
 		</section>
         <!-- Contact section -->
 		<section id="contact-section"> 
-        <h3 class="text-center">Contact Us</h3>
-        <div class="container form-container">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="ml-4">Got a question or need some information? Drop us a mail and we'll get right back to you</p>
+        <div class="container form-container py-5">
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <form onsubmit="return sendMail(this);">
@@ -525,7 +530,7 @@
                 placeholder="Please Enter Your Message or Question"
                 required
               ></textarea>
-              <button type="submit" class="btn btn-primary btn-block">
+              <button type="submit" class="btn btn-contact btn-block">
                 Submit
               </button>
             </form>
@@ -540,9 +545,42 @@
         
 	</main>
 	<footer>
-		<div>
-			social media
-		</div>
+		<div class="container-fluid social-media py-1">
+        <div class="row text-center">
+          <div class="col">
+        
+        
+          
+          <ul class="media-links list-inline">
+            <li class="list-inline-item ">
+              <a target="_blank" href="https://www.facebook.com">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.twitter.com">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.youtube.com">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        </div>
+    
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"

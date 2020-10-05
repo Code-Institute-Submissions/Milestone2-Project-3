@@ -3,7 +3,7 @@
 body{
     font-family: anton;
     font-size: 16px;
-    color: maroon;
+    color: #b42424;
     background-color: #eaeae1;
     
 }
@@ -15,23 +15,22 @@ body{
 
 .navbar {
   overflow: hidden;
-  background-color: #343a40;
-  color: whitesmoke;
+  background-color: #b42424;
+  color: white;
   position: fixed;
   top: 0;
   width: 100%;
   float: right;
 }
 
-.navbar-brand {
-  font-weight: bolder;
-}
+
+
 
 /* Hero Section */
 
 .jumbotron-section {
   height: 120vh;
-  background: url(../images/steppedup.jpg) no-repeat;
+  background: url(../images/steppedup5.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -48,29 +47,29 @@ body{
 
 
 
-/*@media screen and (max-width:1393px){
-    #hero-image{
-        background-attachment: scroll;
-    }
-}
-#hero p{
-    padding: 100px;
-}*/
+
 
 /* Opponents Section */
 
 .opponentsbadges img{
-   width:50px;
-   height:50px;
+   width:75px;
+   height:75px;
    object-fit:scale-down;
 }
 
 #map {
-        height: 600px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
+        height: 600px;  
+        width: 100%;  
+        }
 
 /* Fixtues Section */
+
+.card{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 
 
 .red{

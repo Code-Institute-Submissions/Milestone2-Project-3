@@ -12,12 +12,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 	</script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("user_z6AetQjjC6bhrHn6BmFgw");
-            
-         })();</script>
+    
     
 
 	<link rel="stylesheet" href="assets/css/style.css" />
@@ -29,7 +24,7 @@
 		<!-- Navbar using a Bootstrap 4 template -->
 		<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
           <a class="navbar-brand" href="#hero">
-            <img src="assets/images/badges/Northampton.jpg" width="40" height="40" alt="NTFC"/>NTFC on the Road</a>
+            <img src="assets/images/badges/Northampton.jpg" width="40" height="40" alt="NTFC"/>       NTFC on the Road</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -48,10 +43,10 @@
                 <a class="nav-link" href="#fixtures">Fixtures</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#map-section">Map</a>
+                <a class="nav-link" href="#map-section">Grounds</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#direction-section">Route Planner</a>
+                <a class="nav-link" href="#direction-section">Directions</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact-section">Contact Us</a>
@@ -377,22 +372,17 @@
         </section>
         <!-- Map section -->
         <section id="map-section">
-            <h3 class="text-center">On the Road</h3>
-            <input
-            id="search"
-            class="form-control"
-            type="text"
-            placeholder="Search the Map"
-            />
+            <h2 class="text-center">Where are the Grounds ?</h2>
+            <p class="ml-4">Click on the markers to reveal the grounds and links to the Clubs Website</p>
             <div  id="map"></div>        
-           
         </section>
        
     
         <!-- Directions section -->
         <section id="direction-section">
-        <h3 class="text-center">Get Directions to the Grounds</h3>
-			<div class="container opponentsbadges">
+        <h2 class="text-center">Get Directions to the Grounds</h2>
+        <p class="ml-4">Click on the club badge to get directions to the ground</p>
+			<div class="container opponentsbadges pb-3">
 				<div class="row">
 					<div class="col-4 col-lg-2" >
                         <a href="https://goo.gl/maps/b8UtxScD4LbvDUr8A" target="_blank">
@@ -420,7 +410,7 @@
                     </div>
 				</div>
 			</div>
-			<div class="container opponentsbadges">
+			<div class="container opponentsbadges pb-3">
 				<div class="row">
 					<div class="col-4 col-lg-2">
                     <a href="https://goo.gl/maps/ikphzcbcYEG7vDAd7" target="_blank">
@@ -448,7 +438,7 @@
                     </div>
 				</div>
 			</div>
-			<div class="container opponentsbadges">
+			<div class="container opponentsbadges pb-3">
 				<div class="row">
 					<div class="col-4 col-lg-2">
                         <a href="https://goo.gl/maps/t7pxiuaxrRfVfR6u5" target="_blank">
@@ -476,7 +466,7 @@
                     </div>
 				</div>
 			</div>
-			<div class="container opponentsbadges">
+			<div class="container opponentsbadges pb-3">
 				<div class="row">
 					<div class="col-4 col-lg-2">
                         <a href="https://goo.gl/maps/WuqBnp3WuZ9HmdLz9" target="_blank">
@@ -558,10 +548,18 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
 		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
 	</script>
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap&libraries=places">
-	</script>
+	
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"></script>
+	
+		
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_z6AetQjjC6bhrHn6BmFgw");
+            
+         })();</script>
     
 	<script type="text/javascript" src="assets/js/maps.js"></script>
     <script type="text/javascript" src="assets/js/fixtures.js"></script>

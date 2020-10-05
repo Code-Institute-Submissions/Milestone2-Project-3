@@ -12,6 +12,8 @@
 // new map
         let map = new google.maps.Map(document.getElementById("map"),options);
 
+
+
 // add marker
         var markers =[{
 		coords: {
@@ -186,43 +188,6 @@
         }
 
 
-        var markerCluster = new MarkerClusterer(map, marker, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+        
 
     }
-var input = document.getElementById("search");
-  var searchBox = new google.maps.places.SearchBox(input);
-
-  map.addListener("bounds_changed", function () {
-    searchBox.setBounds(map.getBounds());
-  });
-
-  var markersPlaces = [];
-
-  searchBox.addListener("places_changed", function () {
-    var places = searchBox.getPlaces();
-
-    if (places.length == 0) return;
-
-    markersPlaces.forEach(function (m) {
-      m.setMap(null);
-    });
-    
-
-    var bounds = new google.maps.LatLngBounds();
-    places.forEach(function (p) {
-      if (!p.geometry) return;
-
-      markersPlaces.push(
-        new google.maps.Marker({
-          map: map,
-          title: p.name,
-          position: p.geometry.location,
-        })
-      );
-
-      if (p.geometry.viewport) bounds.union(p.geometry.viewport);
-      else bounds.extend(p.geometry.location);
-    });
-
-    map.fitBounds(bounds);
-  });

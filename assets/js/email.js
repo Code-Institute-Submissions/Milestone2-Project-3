@@ -4,13 +4,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "your_message": contactForm.message.value
     })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block from loading a new page
+     .then(alert("Thank you! You email has been sent"));
+
+  $("#contact-form").text();
 }

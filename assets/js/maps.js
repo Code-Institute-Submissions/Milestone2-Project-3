@@ -4,7 +4,7 @@
 //map options
     function initMap(){
         let options ={
-             zoom: 7,
+             zoom: 6,
 		center: {
 			lat: 52.2350,
 			lng: -0.9337}
@@ -127,7 +127,7 @@
 			lat: 50.7964,
 			lng: -1.06389
 		},
-		content: "<img src ='assets/images/grounds/frattonParl.html' alt ='Fratton Park'><h6>Portsmouth</h6><a href ='https://www.portsmouthfc.co.uk/' target='_blank'>Go To Club Site</a>"
+		content: "<img src ='assets/images/grounds/frattonPark.jpg' alt ='Fratton Park'><h6>Portsmouth</h6><a href ='https://www.portsmouthfc.co.uk/' target='_blank'>Go To Club Site</a>"
 	}, {
 		coords: {
 			lat: 53.6209,
@@ -165,7 +165,7 @@
 
         }
 
-       s
+       
 
 //  add marker function
         function addMarker(props){
@@ -187,4 +187,42 @@
 
 
         var markerCluster = new MarkerClusterer(map, marker, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-}
+
+    }
+var input = document.getElementById("search");
+  var searchBox = new google.maps.places.SearchBox(input);
+
+  map.addListener("bounds_changed", function () {
+    searchBox.setBounds(map.getBounds());
+  });
+
+  var markersPlaces = [];
+
+  searchBox.addListener("places_changed", function () {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) return;
+
+    markersPlaces.forEach(function (m) {
+      m.setMap(null);
+    });
+    
+
+    var bounds = new google.maps.LatLngBounds();
+    places.forEach(function (p) {
+      if (!p.geometry) return;
+
+      markersPlaces.push(
+        new google.maps.Marker({
+          map: map,
+          title: p.name,
+          position: p.geometry.location,
+        })
+      );
+
+      if (p.geometry.viewport) bounds.union(p.geometry.viewport);
+      else bounds.extend(p.geometry.location);
+    });
+
+    map.fitBounds(bounds);
+  });

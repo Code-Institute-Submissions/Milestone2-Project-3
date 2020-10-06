@@ -44,32 +44,11 @@ body{
   padding-top: 50px;
   font-size: 80px;
 }
-
-
-
-
-
-/* Directions Section */
-
-.opponentsbadges img{
-   width:75px;
-   height:75px;
-   object-fit:scale-down;
-}
-
-.opponentsbadges img:hover{
-     width:100px;
-   height:100px;
-}
-
-/* Map Section */
-
-#map {
-        height: 600px;  
-        width: 100%;  
-        }
-
 /* Fixtues Section */
+
+#fixtures h2{
+    padding: 80px 0px 10px;
+}
 
 .card{
   border-top-left-radius: 15px;
@@ -156,7 +135,45 @@ body{
       color: black;
 }
 
+/* Map Section */
+
+#map {
+        height: 600px;  
+        width: 100%;  
+        }
+
+#map-section h2{
+    padding:80px 0px 10px;
+}
+
+
+
+/* Directions Section */
+
+#direction-section h2{
+    padding:80px 0px 10px;
+}
+
+.opponentsbadges img{
+   width:75px;
+   height:75px;
+   object-fit:scale-down;
+}
+
+.opponentsbadges img:hover{
+     width:100px;
+   height:100px;
+}
+
+
 /*-------------contact section-----------------------------------------*/
+
+#contact-section h2{
+    padding:80px 0px 10px;
+}
+.form-control{
+    color: yellow
+}
 
 .btn-contact{
     color: #ffffff;
@@ -172,7 +189,7 @@ body{
 
 .media-links i {
   padding: 5%;
-  color: whitesmoke;
+  color: white;
   font-size: 150%;
   margin-right: 80px;
   margin-left: 80px;
@@ -185,9 +202,6 @@ body{
   background: red;
   font-size: 200%;
 }
-
-
-
 
 .media-links{
     text-align: center;

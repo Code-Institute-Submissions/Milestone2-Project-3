@@ -135,7 +135,7 @@ body{
       color: black;
 }
 .fixture-background p{
-    background-color:#d6d6c2
+    background-color:#f7f7f7
 }
 
 /* Map Section */
@@ -175,7 +175,7 @@ body{
 
 #half-time h2{
     padding:80px 0px 10px;
-
+}
 /*-------------contact section-----------------------------------------*/
 
 #contact-section h2{
@@ -199,7 +199,7 @@ body{
 
 .media-links i {
   padding: 5%;
-  color: white;
+  color: whitesmoke;
   font-size: 150%;
   margin-right: 80px;
   margin-left: 80px;
@@ -212,6 +212,9 @@ body{
   background: red;
   font-size: 200%;
 }
+
+
+
 
 .media-links{
     text-align: center;

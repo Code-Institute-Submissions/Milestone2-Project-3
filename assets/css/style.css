@@ -60,15 +60,15 @@ body{
 
 .red{
     background-color: red;
-    color: white;    
+    color: black;    
 }
 .blue{
     background-color:blue;
-    color: white;
+    color: black;
 }
 .orange{
     background-color: orangered;
-    color: white;
+    color: black;
 }
 .yellow{
     background-color: yellow;
@@ -80,11 +80,11 @@ body{
 }
 .claret{
     background-color: maroon;
-    color: white;
+    color: black;
 }
 .green{
     background-color: green;
-    color: white;
+    color: black;
 }
 .blueyellow{
      background:  repeating-linear-gradient(90deg, 
@@ -124,7 +124,7 @@ body{
      #e9c62e 15px,
      #000111 15px,
      #000111 30px);
-      color: white;
+      color: black;
 }
 .redwhitehoop{
      background:  repeating-linear-gradient(180deg, 
@@ -133,6 +133,9 @@ body{
      #ffffff 15px,
      #ffffff 30px);
       color: black;
+}
+.fixture-background p{
+    background-color:#d6d6c2
 }
 
 /* Map Section */

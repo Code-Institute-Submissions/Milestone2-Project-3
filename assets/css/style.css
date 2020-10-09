@@ -1,264 +1,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-body{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    color: #b42424;
-    background-color: #eaeae1;
-    overflow-x: hidden;
-    
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	color: #b42424;
+	background-color: #eaeae1;
+	overflow-x: hidden;
 }
 /* NavBar */
 
 .navbar navbar-toggler-icon {
-  color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #b42424;
-  color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  float: right;
+	overflow: hidden;
+	background-color: #b42424;
+	color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	float: right;
 }
-.navbar-brand{
-    color: white;
+
+.navbar-brand {
+	color: white;
 }
-.nav-link{
-    color:white;
+
+.nav-link {
+	color: white;
 }
-.nav-link:hover{
-    color:yellow;
+
+.nav-link:hover {
+	color: yellow;
 }
-.navbar-brand:hover{
-    color:yellow;
+
+.navbar-brand:hover {
+	color: yellow;
 }
 
 /* Hero Section */
 
 .jumbotron-section {
-  height: 120vh;
-  background: url(../images/steppedup5.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: transparent;
+	height: 120vh;
+	background: url(../images/steppedup5.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: transparent;
 }
 
 .jumbotron-container h1 {
-  margin-top: 20px;
-  padding-top: 50px;
-  font-size: 70px;
+	margin-top: 20px;
+	padding-top: 50px;
+	font-size: 70px;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 120vh;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: #7f84887d;
- }
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 120vh;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+	background-color: #7f84887d;
+}
 
 /* Fixtues Section */
 
-#fixtures h2{
-    padding: 80px 0px 10px;
+#fixtures h2 {
+	padding: 80px 0px 10px;
 }
 
-.card{
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  font-weight: 700;
-}
-.btn{
-    font-weight: 700;
+.card {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: 700;
 }
 
+.btn {
+	font-weight: 700;
+}
 
-.red{
-    background-color: red;
-    color: black;    
+.red {
+	background-color: red;
+	color: black;
 }
-.blue{
-    background-color:blue;
-    color: black;
+
+.blue {
+	background-color: blue;
+	color: black;
 }
-.orange{
-    background-color: orangered;
-    color: black;
+
+.orange {
+	background-color: orangered;
+	color: black;
 }
-.yellow{
-    background-color: yellow;
-    color: black;
-    }
-.white{
-    background-color: white;
-    color: black;
+
+.yellow {
+	background-color: yellow;
+	color: black;
 }
-.claret{
-    background-color: maroon;
-    color: black;
+
+.white {
+	background-color: white;
+	color: black;
 }
-.green{
-    background-color: green;
-    color: black;
+
+.claret {
+	background-color: maroon;
+	color: black;
 }
-.blueyellow{
-     background:  repeating-linear-gradient(90deg, 
+
+.green {
+	background-color: green;
+	color: black;
+}
+
+.blueyellow {
+	background: repeating-linear-gradient(90deg, 
      #1131eb ,
      #1131eb 15px,
      #f5da0a 15px,
      #f5da0a 30px);
-     color: black;
+	color: black;
 }
-.bluewhite{
-     background:  repeating-linear-gradient(90deg, 
+
+.bluewhite {
+	background: repeating-linear-gradient(90deg, 
      #1131eb ,
      #1131eb 15px,
      #ffffff 15px,
      #ffffff 30px);
-     color: black;
+	color: black;
 }
-.redwhite{
-     background:  repeating-linear-gradient(90deg, 
+
+.redwhite {
+	background: repeating-linear-gradient(90deg, 
      #ff0000 ,
      #ff0000 15px,
      #ffffff 15px,
      #ffffff 30px);
-      color: black;
+	color: black;
 }
-.redwhitethin{
-     background:  repeating-linear-gradient(90deg, 
+
+.redwhitethin {
+	background: repeating-linear-gradient(90deg, 
      #ff0000 ,
      #ff0000 25px,
      #ffffff 5px,
      #ffffff 30px);
-      color: black;
+	color: black;
 }
-.goldblack{
-     background:  repeating-linear-gradient(90deg, 
+
+.goldblack {
+	background: repeating-linear-gradient(90deg, 
      #e9c62e ,
      #e9c62e 15px,
      #000111 15px,
      #000111 30px);
-      color: black;
+	color: black;
 }
-.redwhitehoop{
-     background:  repeating-linear-gradient(180deg, 
+
+.redwhitehoop {
+	background: repeating-linear-gradient(180deg, 
      #ff0000 ,
      #ff0000 15px,
      #ffffff 15px,
      #ffffff 30px);
-      color: black;
+	color: black;
 }
-.fixture-background p{
-    background-color:white;
+
+.fixture-background p {
+	background-color: white;
 }
 
 /* Map Section */
 
 #map {
-        height: 600px;  
-        width: 100%;  
-        }
+	height: 600px;
+	width: 100%;
+}
 
-#map-section h2{
-    padding:80px 0px 10px;
+#map-section h2 {
+	padding: 80px 0px 10px;
 }
 
 
 
 /* Directions Section */
 
-.opponentsbadges{
-    padding-bottom: 100px;
+.opponentsbadges {
+	padding-bottom: 100px;
 }
 
-#direction-section h2{
-    padding:80px 0px 10px;
+#direction-section h2 {
+	padding: 80px 0px 10px;
 }
 
-.opponentsbadges img{
-   width:75px;
-   height:75px;
-   object-fit:scale-down;
+.opponentsbadges img {
+	width: 75px;
+	height: 75px;
+	object-fit: scale-down;
 }
 
-.opponentsbadges img:hover{
-     width:100px;
-   height:100px;
+.opponentsbadges img:hover {
+	width: 100px;
+	height: 100px;
 }
 /*-------------half time section-----------------------------------------*/
 
-#half-time h2{
-    padding:80px 0px 10px;
+#half-time h2 {
+	padding: 80px 0px 10px;
 }
 /*-------------contact section-----------------------------------------*/
 
-#contact-section h2{
-    padding:20px 0px 10px;
+#contact-section h2 {
+	padding: 20px 0px 10px;
 }
 
-
-
-.btn-contact{
-    color: #ffffff;
-    background-color:  #b42424;
+.btn-contact {
+	color: #ffffff;
+	background-color: #b42424;
 }
 
 /*-------------social media section-----------------------------------------*/
 
 .social-media {
-  background-color:  #b42424;
-  color: whitesmoke;
+	background-color: #b42424;
+	color: whitesmoke;
 }
 
 .media-links i {
-  padding: 5%;
-  color: whitesmoke;
-  font-size: 150%;
-  margin-right: 50px;
-  margin-left: 50px;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+	padding: 5%;
+	color: whitesmoke;
+	font-size: 150%;
+	margin-right: 50px;
+	margin-left: 50px;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .media-links i:hover {
-  background: yellow;
-  font-size: 200%;
+	background: yellow;
+	font-size: 200%;
 }
 
-
-
-
-.media-links{
-    text-align: center;
+.media-links {
+	text-align: center;
 }
 
 @media (max-width: 575.98px) {
-    .media-links i {
-  padding: 5%;
-  color: whitesmoke
-  font-size: 120%;
-  margin-right: 25px;
-  margin-left: 25px;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-    }
-    .media-links i:hover {
-  background: yellow;
-  font-size: 150%;
+	.media-links i {
+		padding: 5%;
+		color: whitesmoke;
+		font-size: 120%;
+		margin-right: 25px;
+		margin-left: 25px;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+	}
+
+	.media-links i:hover {
+		background: yellow;
+		font-size: 150%;
+	}
 }
-    }

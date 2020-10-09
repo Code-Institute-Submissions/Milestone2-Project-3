@@ -6,7 +6,7 @@ function initMap() {
 			center: {
 				lat: 52.2350,lng: -0.9337
 			}
-		}
+		};
 		// new map
 	let map = new google.maps.Map(document.getElementById("map"), options);
 	// add marker

@@ -9,12 +9,14 @@ function initMap() {
 		};
 		// new map
 	let map = new google.maps.Map(document.getElementById("map"), options);
+
+    
 	// add marker
 	let markers = [{
 		coords: {
 			lat: 53.7654,lng: -2.37106
 		},
-		content: "<img src ='assets/images/grounds/whamStadium.jpg' alt='whamStaduim'><h6>Accrington Stanley</h6><a href ='https://www.accringtonstanley.co.uk/' target='_blank'>Go To Club Site</a><br><a href='https://goo.gl/maps/b8UtxScD4LbvDUr8A' target='_blank'>  Directions to Wham Stadium</a>"
+       	content: "<img src ='assets/images/grounds/whamStadium.jpg' alt='whamStaduim'><h6>Accrington Stanley</h6><a href ='https://www.accringtonstanley.co.uk/' target='_blank'>Go To Club Site</a><br><a href='https://goo.gl/maps/b8UtxScD4LbvDUr8A' target='_blank'>  Directions to Wham Stadium</a>"
 	}, {
 		coords: {
 			lat: 51.4051,lng: -0.281984
@@ -138,7 +140,7 @@ function initMap() {
 	function addMarker(props) {
 		let marker = new google.maps.Marker({
 			position: props.coords,
-			map: map
+            map: map
 		});
 		if(props.content) {
 			let InfoWindow = new google.maps.InfoWindow({

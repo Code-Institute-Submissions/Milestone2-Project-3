@@ -1,39 +1,43 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align = "center">On the road with the Cobblers<h1>
 
-Welcome martinjohnson26,
+## Milestone 2 Project: Interactive Frontend Development by Martin Johnson
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+On The Road With The Cobblers is an interactive front end website designed and built by Martin Johnson using knowledge
+learnt on the Code Institute Full Stack Developers Course Modules 1- 7 which include HTML, CSS and JavaScript.
 
-## Gitpod Reminders
+It is a fully responsive site designed to met the users requirements first.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The purpose of the site is to provide football supporters with fixture details, club infomation and travel directions. This 
+site is primarily focused for supporterss of Northampton Town FC , however the fundamental design and content can be adapted 
+for clubs and other sports.
 
-`python3 -m http.server`
+![mock ups on various devices.](assets/readme_docs/mockup.png)
 
-A blue button should appear to click: *Make Public*,
+[View the live project here.](https://martinjohnson26.github.io/Milestone2-Project/)
 
-Another blue button should appear to click: *Open Browser*.
+## User Experience (UX)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As a regular follower of Northampton Town FC , I was inspired to create an interactive website for fellow supporters 
+that is easy to use , provided fixture detail infomation, locations of the grounds they may want to visit and directions
+to those grounds. The site should also be mobile friendly as predicted usage is likely to be on match days when the user
+ does not have easy access to a laptop.
 
-A blue button should appear to click: *Make Public*,
+ - As a user, I want to be able to see fixtures dates and kick off times
+ - As a user, i want to see details of the stadiums that I am going to and details about the other teams in my league
+ - As a user, I want to be able to get directions to the stadiums
+ - As a user, I want to be able to contact the site owner and ask for more information
 
-Another blue button should appear to click: *Open Browser*.
+ - As site owner, I want to provide the infomation supports require in a clear and easy to use style
+ - As site owner, I want to be able to respond to user requests and share my knowledge and experience with the user
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+ ## Wireframes
 
-## Updates Since The Instructional Video
+ Based on user requirements, I used [Balsamiq](https://balsamiq.com/) to create basic site layout templates for desktop,
+ tablet and mobile devices . The design consists of 4 sections , a home page, a fixtures section, a map section and a 
+ contact section. I decised to use a JQuery toggle function to show and hide the fixtures as selected by the user. A gallery 
+ page was consider but deemed not relevant at the design inception and with this in mind the a single page website was decided
+ upon. 
+ initial Home page design layouts are displayed below. [Full wireframes can be viewed here](assets/readme_docs/wireframes/wireframes.pdf)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+ ![Homepage wireframes](assets/readme_docs/wireframes/screens.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

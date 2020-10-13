@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 body {
@@ -32,11 +39,12 @@ body {
 }
 
 .nav-link:hover {
-	color: yellow;
+	color:rgb(225, 248, 94);
 }
 
 .navbar-brand:hover {
-	color: yellow;
+	color: rgb(225, 248, 94);
+
 }
 
 /* Hero Section */
@@ -67,6 +75,8 @@ body {
 	height: 120vh;
 	width: 100%;
 	opacity: 1;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
 	transition: .5s ease;
 	background-color: #7f84887d;
 }
@@ -125,6 +135,11 @@ body {
 }
 
 .blueyellow {
+	background: -o-repeating-linear-gradient(left, 
+     #1131eb ,
+     #1131eb 15px,
+     #f5da0a 15px,
+     #f5da0a 30px);
 	background: repeating-linear-gradient(90deg, 
      #1131eb ,
      #1131eb 15px,
@@ -134,6 +149,11 @@ body {
 }
 
 .bluewhite {
+	background: -o-repeating-linear-gradient(left, 
+     #1131eb ,
+     #1131eb 15px,
+     #ffffff 15px,
+     #ffffff 30px);
 	background: repeating-linear-gradient(90deg, 
      #1131eb ,
      #1131eb 15px,
@@ -143,6 +163,11 @@ body {
 }
 
 .redwhite {
+	background: -o-repeating-linear-gradient(left, 
+     #ff0000 ,
+     #ff0000 15px,
+     #ffffff 15px,
+     #ffffff 30px);
 	background: repeating-linear-gradient(90deg, 
      #ff0000 ,
      #ff0000 15px,
@@ -152,6 +177,11 @@ body {
 }
 
 .redwhitethin {
+	background: -o-repeating-linear-gradient(left, 
+     #ff0000 ,
+     #ff0000 25px,
+     #ffffff 5px,
+     #ffffff 30px);
 	background: repeating-linear-gradient(90deg, 
      #ff0000 ,
      #ff0000 25px,
@@ -161,6 +191,11 @@ body {
 }
 
 .goldblack {
+	background: -o-repeating-linear-gradient(left, 
+     #e9c62e ,
+     #e9c62e 15px,
+     #000111 15px,
+     #000111 30px);
 	background: repeating-linear-gradient(90deg, 
      #e9c62e ,
      #e9c62e 15px,
@@ -170,6 +205,11 @@ body {
 }
 
 .redwhitehoop {
+	background: -o-repeating-linear-gradient(top, 
+     #ff0000 ,
+     #ff0000 15px,
+     #ffffff 15px,
+     #ffffff 30px);
 	background: repeating-linear-gradient(180deg, 
      #ff0000 ,
      #ff0000 15px,
@@ -208,7 +248,8 @@ body {
 .opponentsbadges img {
 	width: 75px;
 	height: 75px;
-	object-fit: scale-down;
+	-o-object-fit: scale-down;
+	   object-fit: scale-down;
 }
 
 .opponentsbadges img:hover {
@@ -231,6 +272,11 @@ body {
 	background-color: #b42424;
 }
 
+.btn-contact:hover {
+	color: #000000;
+	background-color: rgb(225, 248, 94)
+}
+
 /*-------------social media section-----------------------------------------*/
 
 .social-media {
@@ -250,8 +296,9 @@ body {
 }
 
 .media-links i:hover {
-	background: yellow;
+	background: rgb(225, 248, 94);
 	font-size: 200%;
+    color: black
 }
 
 .media-links {
@@ -271,7 +318,8 @@ body {
 	}
 
 	.media-links i:hover {
-		background: yellow;
+		background: rgb(225, 248, 94);
 		font-size: 150%;
+        color: black;
 	}
 }

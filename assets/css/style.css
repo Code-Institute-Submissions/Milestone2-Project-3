@@ -50,8 +50,8 @@ body {
 /* Hero Section */
 
 .jumbotron-section {
-	height: 120vh;
-	background: url(../images/steppedup5.jpg) no-repeat;
+	height: 600px;
+	background: url(../images/steppedup6.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	display: -webkit-box;
@@ -72,7 +72,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 120vh;
+	height: 600px;
 	width: 100%;
 	opacity: 1;
 	-webkit-transition: .5s ease;

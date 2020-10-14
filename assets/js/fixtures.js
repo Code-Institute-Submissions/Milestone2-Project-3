@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(".invisible").hide();
 });
 
+// Show/Hide Buttons 
 $(function(){
    $(".fixtures-btn").click(function () {
 

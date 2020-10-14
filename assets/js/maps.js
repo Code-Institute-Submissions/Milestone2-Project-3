@@ -1,4 +1,5 @@
-// Template for maps from YOU TUBE Add CORRECT NAME HERE AND REFERENCE IN READ ME
+// Template for maps from YouTube video from Traversy Media
+
 //map options
 function initMap() {
 	let options = {
@@ -7,11 +8,10 @@ function initMap() {
 				lat: 52.2350,lng: -0.9337
 			}
 		};
-		// new map
+// new map
 	let map = new google.maps.Map(document.getElementById("map"), options);
 
-    
-	// add marker
+ // add marker
 	let markers = [{
 		coords: {
 			lat: 53.7654,lng: -2.37106
@@ -136,7 +136,8 @@ function initMap() {
 	for(let i = 0; i < markers.length; i++) {
 		addMarker(markers[i]);
 	}
-	//  add marker function
+
+//  add marker function
 	function addMarker(props) {
 		let marker = new google.maps.Marker({
 			position: props.coords,

@@ -42,27 +42,27 @@ to those grounds. The site should also be mobile friendly as predicted usage is 
 
  ![Homepage wireframes](assets/readme_docs/wireframes/screens.png)
 
-### Strategy
+  ### Strategy
 
-    To create a simple and attractive site for supporters of Northampton Town FC
+To create a simple and attractive site for supporters of Northampton Town FC
 
-### Scope
+  ### Scope
 
-    To provide fixtures and stadium details and travel directions for supporters. 
+To provide fixtures and stadium details and travel directions for supporters. 
 
-### Structure
+ ### Structure
 
-    The site is structured to ensure that all elements of the site are easily accessible via a navigation bar and is layed
-    out in clearly defined sections for the user
+The site is structured to ensure that all elements of the site are easily accessible via a navigation bar and is layed
+out in clearly defined sections for the user
 
-### Skelton
+ ### Skelton
 
-    The initial design layout was created using [Balsamiq](https://balsamiq.com/). The designs are shown above in the
-    Wireframes section
+The initial design layout was created using [Balsamiq](https://balsamiq.com/). The designs are shown above in the
+Wireframes section
 
 ### Surface
 
-    A team image with an opacity added to enable the text to be more visible is the landing page.
+A team image with an opacity added to enable the text to be more visible is the landing page.
     
  ## Design and Website Features
 
@@ -77,9 +77,9 @@ to those grounds. The site should also be mobile friendly as predicted usage is 
     colours. A light grey background was used to enhance the overall feel to the site.
 
     * Fonts,NavBar and footer backgrounds:  #b42424
-      Fixture Section Fonts: #000000
-      Hover effects: #E1F85E
-      Body: #eaeae1
+    * Fixture Section Fonts: #000000
+    * Hover effects: #E1F85E
+    * Body: #eaeae1
 
 -   ### Typography
 

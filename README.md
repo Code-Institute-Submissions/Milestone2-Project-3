@@ -142,11 +142,11 @@ A team image with an opacity added to enable the text to be more visible is the 
 ## Testing
 
 ### W3C HTML Validator
-	Passed. No errors
+Passed. No errors
 
 
 ### W3C CSS Validator
-    Passed. No errors
+Passed. No errors
 
 ### User story testing
 
@@ -164,8 +164,8 @@ A team image with an opacity added to enable the text to be more visible is the 
 
  3.  As a user, I want to be able to get directions to the stadiums.
 
-    Each info window contains a a directions link to the stadium. All functions in this section have been tested and full
-    testing details are available in the test log.
+     Each info window contains a a directions link to the stadium. All functions in this section have been tested and full
+     testing details are available in the test log.
 
  4. As a user, I want to be able to contact the site owner and ask for more information.
 
@@ -177,7 +177,7 @@ A team image with an opacity added to enable the text to be more visible is the 
 
 ### Deployment
 
-    To deploy my site I used GitHub and the following steps:
+To deploy my site I used GitHub and the following steps:
 
 1. Logged into my GitHub account.
 1. Went to my repositories and selected my project.
@@ -214,7 +214,7 @@ Code Institute coursework for reference
 
 Traversy Media for YouTube videos related to Google Maps API's
 
-Codecademy for additional tutorials relating to JaveScript
+Codecademy for additional tutorials relating to JavaScript
 
 Oluwafemi Medale (CI Mentor) For help, support, advice and positive feedback from the initail inception of the site through to completion
 

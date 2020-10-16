@@ -143,8 +143,9 @@ A team image with an opacity added to enable the text to be more visible is the 
 
 W3C Markup Validator and W3C CSS Validator Services were used to ensure there were no syntax errors in the project.
 
-[W3C HTML Validator -  Results](assets/readme_docs/htmlValidate.png.pdf)
-[W3C CSS Validator * Results](assets/readme_docs/cssValidate.png)
+* [W3C HTML Validator -  Results](assets/readme_docs/htmlValidate.png.pdf)
+
+* [W3C CSS Validator * Results](assets/readme_docs/cssValidate.png)
 
 ### User story testing -  All test were manually conducted
 

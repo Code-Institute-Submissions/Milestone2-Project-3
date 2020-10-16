@@ -5,13 +5,14 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Milestone Project 2</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 	<link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/style.css" /> </head>
 
 <body>
+
 	<header>
-		<!-- Navbar  -->
+		<!------------------------------ Navbar  -------------------------------------------------->
 		<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
 			<a class="navbar-brand" href="#hero"> <img src="assets/images/Northampton.jpg" width="40" height="40" alt="NTFC" /> NTFC on the Road</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
@@ -25,6 +26,7 @@
 			</div>
 		</nav>
 	</header>
+
 	<main>
 		<section id="hero">
 			<div class="jumbotron jumbotron-fluid jumbotron-section">
@@ -40,7 +42,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- Fixtures section -->
+		<!------------------------------- Fixtures section ---------------------------------------->
 		<section id="fixtures">
 			<h2 class="text-center text-capitalize">Fixtures</h2>
 			<p class="text-center">Click on the Show Fixtures buttons to see dates and kick off times</p>
@@ -313,13 +315,13 @@
 				</div>
 			</div>
 		</section>
-		<!-- Map section -->
+		<!-------------------------------- Map section ------------------------------------------->
 		<section id="map-section">
 			<h2 class="text-center">Stadiums</h2>
 			<p class="text-center">Click on the markers to reveal stadiums, links to club websites and directions</p>
 			<div id="map"></div>
 		</section>
-		<!-- Contact section -->
+		<!----------------------------- Contact section ------------------------------------------>
 		<section id="contact-section">
 			<h2 class="text-center">Contact Us</h2>
 			<p class="text-center">Got a question or need some information? Drop us a mail and we'll get right back to you</p>
@@ -337,6 +339,7 @@
 			</div>
 		</section>
 	</main>
+
 	<footer>
 		<div class="container-fluid social-media py-1">
 			<div class="row text-center">
@@ -358,23 +361,22 @@
 				</div>
 			</div>
 		</div>
+
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"></script>
 	<script src="assets/js/maps.js"></script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<script src="assets/js/fixtures.js"></script>
-	<script src="assets/js/email.js"></script>
-	<script>
-	(function() {
+	<script src="assets/js/email.js">
+		(function() {
 		emailjs.init("user_z6AetQjjC6bhrHn6BmFgw");
-	})();
-	</script>
+	})();</script>
+	
 </body>
 
 </html>

@@ -141,14 +141,12 @@ A team image with an opacity added to enable the text to be more visible is the 
 
 ## Testing
 
-### W3C HTML Validator
-Passed. No errors
+W3C Markup Validator and W3C CSS Validator Services were used to ensure there were no syntax errors in the project.
 
+[W3C HTML Validator -  Results](assets/readme_docs/htmlValidate.png.pdf)
+[W3C CSS Validator * Results](assets/readme_docs/cssValidate.png)
 
-### W3C CSS Validator
-Passed. No errors
-
-### User story testing
+### User story testing -  All test were manually conducted
 
  1. As a user, I want to be able to see fixtures dates and kick off times
 

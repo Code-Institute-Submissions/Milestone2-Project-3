@@ -14,7 +14,7 @@ body {
 	background-color: #eaeae1;
 	overflow-x: hidden;
 }
-/* NavBar */
+/* -------------------------------- NavBar --------------------------------------------*/
 
 .navbar {
 	overflow: hidden;
@@ -42,7 +42,7 @@ body {
 	color: rgb(225, 248, 94);
 }
 
-/* Hero Section */
+/* ------------------------------- Hero Section --------------------------------------- */
 
 .jumbotron-section {
 	height: 120vh;
@@ -76,10 +76,11 @@ body {
 	background-color: #7f84887d;
 }
 
-/* Fixtues Section */
+/* ------------------------------ Fixtues Section ------------------------------------- */
 
 #fixtures h2 {
-	padding: 80px 0px 10px;
+	padding-top: 80px;
+    margin-bottom: 0px;
 }
 
 .card {
@@ -93,7 +94,7 @@ body {
 .btn {
 	font-weight: 700;
 }
-/* Fixtues Section - Card background colours */
+/* -============================ Fixtues Section - Card background colours ------- */
 
 .red {
 	background-color: red;
@@ -218,7 +219,7 @@ body {
 	background-color: white;
 }
 
-/* Map Section */
+/* ------------------------------ Map Section ------------------------------------ */
 
 #map {
 	height: 600px;
@@ -226,13 +227,15 @@ body {
 }
 
 #map-section h2 {
-	padding: 80px 0px 10px;
+	padding-top: 80px;
+    margin-bottom: 0px;
 }
 
-/*-------------contact section-----------------------------------------*/
+/* -------------================ contact section -----------------------------------*/
 
 #contact-section h2 {
 	padding: 20px 0px 10px;
+    margin-bottom: 0px;
 }
 
 .btn-contact {
@@ -245,7 +248,7 @@ body {
 	background-color: rgb(225, 248, 94)
 }
 
-/*-------------social media section-----------------------------------------*/
+/*------------------------------- social media section -----------------------------*/
 
 .social-media {
 	background-color: #b42424;

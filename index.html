@@ -1,382 +1,384 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Milestone Project 2</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-	<link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css" /> </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Milestone Project 2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" /> </head>
 
-<body>
+    <body>
 
-	<header>
-		<!------------------------------ Navbar  -------------------------------------------------->
-		<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-			<a class="navbar-brand" href="#hero"> <img src="assets/images/Northampton.jpg" width="40" height="40" alt="NTFC" /> NTFC on the Road</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
-			<div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="#hero">Home</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#fixtures">Fixtures</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#map-section">Stadiums</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#contact-section">Contact Us</a> </li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+        <header>
+            <!-- ********************** Navbar  **************************************** -->
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+                <a class="navbar-brand" href="#hero"> <img src="assets/images/Northampton.jpg" width="40" height="40" alt="NTFC" /> NTFC on the Road</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="#hero">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#fixtures">Fixtures</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#map-section">Stadiums</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact-section">Contact Us</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-	<main>
-		<section id="hero">
-			<div class="jumbotron jumbotron-fluid jumbotron-section">
-				<div class="container-fluid jumbotron-container">
-					<div class="overlay">
-						<div class="text-center">
-							<h1 class="display-4 text-white pb-4">
-              On The Road With The <strong>COBBLERS</strong>
-             </h1>
-							<br>
-							<h3 class="lead text-white ">The away fans guide to watching the COBBLERS in League 1</h3> </div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!------------------------------- Fixtures section ---------------------------------------->
-		<section id="fixtures">
-			<h2 class="text-center text-capitalize">Fixtures</h2>
-			<p class="text-center">Click on the Show Fixtures buttons to see dates and kick off times</p>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Accrington Stanley</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Wham Stadium</p>
-								<p class="card-text invisible away-fix"> Away 06/02/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 14/11/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">AFC Wimbledon</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">TBC</p>
-								<p class="card-text invisible away-fix"> Away 27/03/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 12/09/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Blackpool</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="orange">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Bloomfield Road</p>
-								<p class="card-text invisible away-fix"> Away 09/01/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 01/05/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Bristol Rovers</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Memorial Stadium</p>
-								<p class="card-text invisible away-fix"> Away 03/10/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 10/04/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Burton Albion</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="yellow">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Pirelli Stadium</p>
-								<p class="card-text invisible away-fix"> Away 21/11/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 13/02/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Charlton Athletic</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">The Valley</p>
-								<p class="card-text invisible away-fix"> Away 09/03/21 @19:45</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 24/10/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Crewe Alexandra</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Alexandra Stadium</p>
-								<p class="card-text invisible away-fix"> Away 12/12/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 20/03/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Doncaster Rovers</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhitehoop">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Keepmoat Stadium</p>
-								<p class="card-text invisible away-fix"> Away 13/03/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 05/12/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Fleetwood Town</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Highbury Stadium</p>
-								<p class="card-text invisible away-fix"> Away 26/01/21 @19:45</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 06/02/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Gillingham</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Priestfield Stadium</p>
-								<p class="card-text invisible away-fix"> Away 24/04/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 29/12/20 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Hull City</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="goldblack">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">KCOM Stadium</p>
-								<p class="card-text invisible away-fix"> Away 05/04/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 26/09/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Ipswich Town</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Portman Road</p>
-								<p class="card-text invisible away-fix"> Away 26/12/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 20/04/21 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Lincoln City</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhitethin">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">LNER Stadium</p>
-								<p class="card-text invisible away-fix"> Away 22/01/21 @19:45</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 19/12/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">MK Dons</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="white">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Stadium MK</p>
-								<p class="card-text invisible away-fix"> Away 20/02/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 03/11/20 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Northampton Town</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="claret">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2"></p>
-								<p class="card-text invisible away-fix"></p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2"></p>
-								<p class="card-text invisible home-fix"></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Oxford United</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="yellow">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Kassam Stadium</p>
-								<p class="card-text invisible away-fix"> Away 15/12/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 16/01/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Peterborough</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Weston Homes Stadium</p>
-								<p class="card-text invisible away-fix"> Away 17/04/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 10/10/20 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Plymouth Argyle</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="green">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Home Park</p>
-								<p class="card-text invisible away-fix"> Away 17/10/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 02/03/21 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Portsmouth</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Fratton Park</p>
-								<p class="card-text invisible away-fix"> Away 27/10/20 @19:45</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 06/03/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Rochdale</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Crown Oil Arena</p>
-								<p class="card-text invisible away-fix"> Away 24/11/20 @19:45</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 23/02/21 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Shrewsbury Town</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blueyellow">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Montgomery Waters Meadow</p>
-								<p class="card-text invisible away-fix"> Away 19/09/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 02/04/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Sunderland</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhite">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">Stadium of Light</p>
-								<p class="card-text invisible away-fix"> Away 08/05/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 02/01/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Swindon Town</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">The County Ground</p>
-								<p class="card-text invisible away-fix"> Away 27/02/21 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 20/10/20 @19:45</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-2 pb-2">
-						<div class="card border-secondary fixture-background">
-							<div class="card-header text-center">Wigan Athletic</div>
-							<div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="bluewhite">Show Fixtures</a>
-								<p class="card-subtitle invisible away-stadium mt-1 mb-2">DW Stadium</p>
-								<p class="card-text invisible away-fix"> Away 31/10/20 @15:00</p>
-								<p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
-								<p class="card-text invisible home-fix"> Home 30/01/21 @15:00</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-------------------------------- Map section ------------------------------------------->
-		<section id="map-section">
-			<h2 class="text-center">Stadiums</h2>
-			<p class="text-center">Click on the markers to reveal stadiums, links to club websites and directions</p>
-			<div id="map"></div>
-		</section>
-		<!----------------------------- Contact section ------------------------------------------>
-		<section id="contact-section">
-			<h2 class="text-center">Contact Us</h2>
-			<p class="text-center">Got a question or need some information? Drop us a mail and we'll get right back to you</p>
-			<div class="container form-container py-5">
-				<div class="row">
-					<div class="col-md-8 offset-md-2">
-						<form onsubmit="return sendMail(this);">
-							<input type="text" name="name" class="form-control" id="name" placeholder="Please Enter Your Name" required />
-							<input type="email" name="emailaddress" class="form-control" id="email" placeholder="Please Enter Your Email Address" required />
-							<textarea name="message" class="form-control" id="message" placeholder="Please Enter Your Message or Question" required></textarea>
-							<button type="submit" class="btn btn-contact btn-block"> Submit </button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+        <main>
+            <section id="hero">
+                <div class="jumbotron jumbotron-fluid jumbotron-section">
+                    <div class="container-fluid jumbotron-container">
+                        <div class="overlay">
+                            <div class="text-center">
+                                <h1 class="display-4 text-white pb-4">
+                On The Road With The <strong>COBBLERS</strong>
+                </h1>
+                                <br>
+                                <h3 class="lead text-white ">The away fans guide to watching the COBBLERS in League 1</h3> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ************************ Fixtures section ******************************** -->
+            <section id="fixtures">
+                <h2 class="text-center text-capitalize">Fixtures</h2>
+                <p class="text-center">Click on the Show Fixtures buttons to see dates and kick off times</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Accrington Stanley</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Wham Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 06/02/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 14/11/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">AFC Wimbledon</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">TBC</p>
+                                    <p class="card-text invisible away-fix"> Away 27/03/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 12/09/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Blackpool</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="orange">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Bloomfield Road</p>
+                                    <p class="card-text invisible away-fix"> Away 09/01/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 01/05/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Bristol Rovers</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Memorial Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 03/10/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 10/04/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Burton Albion</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="yellow">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Pirelli Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 21/11/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 13/02/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Charlton Athletic</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">The Valley</p>
+                                    <p class="card-text invisible away-fix"> Away 09/03/21 @19:45</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 24/10/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Crewe Alexandra</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Alexandra Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 12/12/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 20/03/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Doncaster Rovers</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhitehoop">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Keepmoat Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 13/03/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 05/12/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Fleetwood Town</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Highbury Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 26/01/21 @19:45</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 06/02/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Gillingham</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Priestfield Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 24/04/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 29/12/20 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Hull City</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="goldblack">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">KCOM Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 05/04/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 26/09/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Ipswich Town</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Portman Road</p>
+                                    <p class="card-text invisible away-fix"> Away 26/12/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 20/04/21 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Lincoln City</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhitethin">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">LNER Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 22/01/21 @19:45</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 19/12/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">MK Dons</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="white">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Stadium MK</p>
+                                    <p class="card-text invisible away-fix"> Away 20/02/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 03/11/20 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Northampton Town</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="claret">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2"></p>
+                                    <p class="card-text invisible away-fix"></p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2"></p>
+                                    <p class="card-text invisible home-fix"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Oxford United</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="yellow">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Kassam Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 15/12/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 16/01/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Peterborough</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Weston Homes Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 17/04/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 10/10/20 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Plymouth Argyle</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="green">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Home Park</p>
+                                    <p class="card-text invisible away-fix"> Away 17/10/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 02/03/21 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Portsmouth</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Fratton Park</p>
+                                    <p class="card-text invisible away-fix"> Away 27/10/20 @19:45</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 06/03/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Rochdale</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blue">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Crown Oil Arena</p>
+                                    <p class="card-text invisible away-fix"> Away 24/11/20 @19:45</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 23/02/21 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Shrewsbury Town</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="blueyellow">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Montgomery Waters Meadow</p>
+                                    <p class="card-text invisible away-fix"> Away 19/09/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 02/04/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Sunderland</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="redwhite">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">Stadium of Light</p>
+                                    <p class="card-text invisible away-fix"> Away 08/05/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 02/01/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Swindon Town</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="red">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">The County Ground</p>
+                                    <p class="card-text invisible away-fix"> Away 27/02/21 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 20/10/20 @19:45</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 pb-2">
+                            <div class="card border-secondary fixture-background">
+                                <div class="card-header text-center">Wigan Athletic</div>
+                                <div class="card-body pb-2"> <a class="btn btn-light btn-small btn-block fixtures-btn" data-colour="bluewhite">Show Fixtures</a>
+                                    <p class="card-subtitle invisible away-stadium mt-1 mb-2">DW Stadium</p>
+                                    <p class="card-text invisible away-fix"> Away 31/10/20 @15:00</p>
+                                    <p class="card-subtitle invisible home-stadium mt-1 mb-2">PTS Academy Stadium</p>
+                                    <p class="card-text invisible home-fix"> Home 30/01/21 @15:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ************************** Map section ********************************* -->
+            <section id="map-section">
+                <h2 class="text-center">Stadiums</h2>
+                <p class="text-center">Click on the markers to reveal stadiums, links to club websites and directions</p>
+                <div id="map"></div>
+            </section>
+            <!-- ************************* Contact section ********************************* -->
+            <section id="contact-section">
+                <h2 class="text-center">Contact Us</h2>
+                <p class="text-center">Got a question or need some information? Drop us a mail and we'll get right back to you</p>
+                <div class="container form-container py-5">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <form onsubmit="return sendMail(this);">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Please Enter Your Name" required />
+                                <input type="email" name="emailaddress" class="form-control" id="email" placeholder="Please Enter Your Email Address" required />
+                                <textarea name="message" class="form-control" id="message" placeholder="Please Enter Your Message or Question" required></textarea>
+                                <button type="submit" class="btn btn-contact btn-block"> Submit </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-	<footer>
-		<div class="container-fluid social-media py-1">
-			<div class="row text-center">
-				<div class="col">
-					<ul class="media-links list-inline">
-						<li class="list-inline-item ">
-							<a target="_blank" href="https://www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="https://www.twitter.com"> <i class="fa fa-twitter" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="https://www.instagram.com"> <i class="fa fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="https://www.youtube.com"> <i class="fa fa-youtube" aria-hidden="true"></i> <span class="sr-only">YouTube</span> </a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+        <footer>
+            <div class="container-fluid social-media py-1">
+                <div class="row text-center">
+                    <div class="col">
+                        <ul class="media-links list-inline">
+                            <li class="list-inline-item ">
+                                <a target="_blank" href="https://www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.twitter.com"> <i class="fa fa-twitter" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com"> <i class="fa fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.youtube.com"> <i class="fa fa-youtube" aria-hidden="true"></i> <span class="sr-only">YouTube</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-	</footer>
+        </footer>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"></script>
-	<script src="assets/js/maps.js"></script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-	<script src="assets/js/fixtures.js"></script>
-	<script src="assets/js/email.js">
-		(function() {
-		emailjs.init("user_z6AetQjjC6bhrHn6BmFgw");
-	})();</script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGyHzSUtlv1xJPMW4RMYmzgQVJLsn9GQ&callback=initMap"></script>
+        <script src="assets/js/maps.js"></script>
+        <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script src="assets/js/fixtures.js"></script>
+        <script src="assets/js/email.js"></script>
+	    <script>
+	        (function() {
+		    emailjs.init("user_z6AetQjjC6bhrHn6BmFgw");
+	            })();</script>
 	
-</body>
+            
+    </body>
 
-</html>
+    </html>

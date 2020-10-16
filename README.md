@@ -1,6 +1,6 @@
-<h1 align = "center">On the road with the Cobblers<h1>
+<h1 align = "center">Milestone 2 Project<h1>
 
-## Milestone 2 Project: Interactive Frontend Development by Martin Johnson
+## Interactive Frontend Development by Martin Johnson
 
 On The Road With The Cobblers is an interactive front end website designed and built by Martin Johnson using knowledge
 learnt on the Code Institute Full Stack Developers Course Modules 1- 7 which include HTML, CSS and JavaScript.
@@ -175,7 +175,9 @@ Passed. No errors
 
     [The full test log can be viewed here](assets/readme_docs/testlog.pdf)
 
-### Deployment
+## Deployment
+
+### GitHub Pages
 
 To deploy my site I used GitHub and the following steps:
 
@@ -185,6 +187,22 @@ To deploy my site I used GitHub and the following steps:
 1. Scrolled down the page to the 'GitHub Pages' section
 1. I selected 'Master branch' in the dropdown
 1. This deployed my project to the URL: https://martinjohnson26.github.io/Milestone2-Project/
+
+### Forking the repository
+
+1.  Log in to GitHub and locate the GitHub Repository
+1.  At the top of the Repository above the "Settings" Button on the menu, locate the "Fork" Button.
+1.  Click the button to create a copy of the original repository in your GitHub account.
+
+### Make a local clone
+
+1. Log in to GitHub and locate the GitHub Repository
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+1. Press Enter. Your local clone will be created.
 
 ## Credits
 
